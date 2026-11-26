@@ -1,0 +1,26 @@
+[package]
+name = "reproduce"
+version = "0.1.0"
+description = "Runs one price vault round on devnet or a local validator and reads every result back"
+edition = "2021"
+publish = false
+
+[dependencies]
+price_vault = { path = "../../programs/price_vault", features = ["no-entrypoint"] }
+anchor-lang = "=1.2.2"
+pyth-solana-receiver-sdk = "=2.0.0"
+pythnet-sdk = "=3.0.0"
+solana-rpc-client = "=4.3.2"
+solana-rpc-client-api = "=4.3.2"
+solana-commitment-config = "3.1.1"
+solana-keypair = "3.1.2"
+solana-signer = "3.0.1"
+solana-message = "4.2.4"
+solana-transaction = "4.1.5"
+solana-system-interface = "3.3.0"
+ureq = "=3.5.2"
+serde_json = "1"
+hex = "0.4.3"
+solana-account = "4.3.0"
+solana-sha256-hasher = "3.1.0"
+solana-signature = "3.5.2"

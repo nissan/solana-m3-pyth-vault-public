@@ -1,0 +1,5 @@
+# Keep build output inside this workspace. Anchor writes the IDL to ./target and the
+# LiteSVM test loads ./target/deploy/price_vault.so, so a user-level target-dir (shared by
+# every project on the machine) would split or overwrite those files.
+[build]
+target-dir = "target"
