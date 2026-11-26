@@ -4,6 +4,8 @@ An Anchor program where two or more players stake SOL on whether a price will be
 
 This is Deed #8 of The Solana Deeds, a series of one-day learning builds.
 
+It has a [write-up](https://reddi.tech/blog/solana-m3-pyth-vault) and a [demo](https://youtu.be/ALrnFGwP5iw), about four minutes.
+
 This is a source snapshot of `6e2f435513d45905df8c8f4f582ad9997b84f951`. The private build journal, issue history, evidence files and hosted checks are not part of this repository. Test names and a few comments carry labels such as `M3-002` or `M3-004 S1`: those are outcome and scenario numbers from that private history. `docs/SECURITY.md`, named in one test file's opening comment, is that repository's list of required checks: signer, account owner, derived addresses and arithmetic overflow. Built and reviewed by an AI agent session directed by the author; no independent review.
 
 ## What was built
